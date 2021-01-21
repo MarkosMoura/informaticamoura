@@ -1,0 +1,216 @@
+*{margin:0;padding:0;box-sizing: border-box;font-size:100%;}
+@font-face{font-family:"font";
+src:url('Anton-Regular.ttf');
+}
+header{
+	width: 100%;
+	display: flex;
+	height: 100px;
+	flex-direction: row;
+	background:#454484;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 2px 2px 8px black;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 1;
+}
+header img{
+	width: 8%;
+}
+header h2{
+	width: 42%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: "font";
+	text-shadow: 2px 2px 2px black;
+	font-weight: initial;
+	margin-right: 20px;
+}
+header ul{
+	display: flex;
+	list-style: none;
+	padding: 0 30px;
+
+}
+header li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	cursor: pointer;
+	font-family: "font";
+	text-shadow: 2px 2px 2px black;
+}
+header li a:hover{
+	color:#ccc;
+}
+header li{
+	margin: 0 20px;
+}
+header li:first-child{
+	margin-left: 0;
+}
+header li:last-child{
+	margin-right:0;
+}
+.apresentação{
+	background-color:#454484; 
+	height: 100vh;
+	position: relative;
+}
+.apresentação img{
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	position: absolute;
+	transition: opacity 800ms;
+}
+.apresentação img.select{opacity: 1;}
+
+/*.apresentação p{
+	width: 40%;
+	background:#0000;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #fff;
+}*/
+.produtos{
+	background:#000000;
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: bold;
+	font-family: Arial;
+	padding: 10px;
+}
+.produtos figure{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.produtos h3#produtos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: initial;
+	margin: 15px auto;
+	font-family: "font";
+}
+.produtos figcaption{
+	width: 20%;
+}
+.produtos img{
+	width: 20%;
+	opacity:.5;
+	cursor:pointer;
+}
+.produtos figcaption em#valor{
+	color: #ccc;
+}
+.produtos figcaption{
+	text-align: center;
+}
+figure figcaption#fig{
+ display: flex; 
+
+}
+.produtos h3 a{
+	width:20%; 
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: "font";
+	font-weight: initial;
+	color: #ccc;
+	background: #000000;
+	font-size: 1.5rem;
+	opacity: .5;
+	margin: 0 auto;
+}
+.produtos i{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 12px;
+}
+.produtos figure img:hover,.produtos h3 a:hover{
+	opacity: 1;
+}
+.produtos figure img.font{
+	width: 15%;
+}
+.cadastro{
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+	background: #454484;
+	color: #fff;
+	font-size: 1.5rem;
+	font-family: "font";
+	text-shadow: 2px 2px 2px black;
+	padding: 10px;	
+
+}
+.cadastro h3{
+	font-weight:initial;
+	margin: 10px auto;
+}
+.cadastro form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+flex-direction: column;
+}
+.cadastro input{
+padding: 10px;
+border-radius: 8px;
+box-shadow: 2px 2px 5px black;
+font-size: 1.3rem;
+
+}
+.cadastro form input[type=text]:focus,
+form input[type=password],
+.cadastro form button[type=button]:focus{
+outline: 0;
+}
+.cadastro button{
+	margin: 10px auto;
+	padding: 4px;
+	cursor:pointer;
+	border-radius:8px;
+	background: transparent;
+	color:#fff;
+	font-family: "font";
+}
+.cadastro button:hover{
+	background:#fff;
+	color:#000000;
+	transition: 2s;
+}
+/*criando o menu*/
+label[for="bt-menu"]{
+	padding: 6px;
+	background: transparent;
+	color: #fff;
+	font-family: Arial;
+	text-align: center;
+	font-size: 28px;
+	cursor: pointer;
+	height: 30px;
+	display: none;
+}
+#bt-menu{
+	display: none;
+}
+
+
+
+
+
+
