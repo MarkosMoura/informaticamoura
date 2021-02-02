@@ -1,3 +1,4 @@
+/*slide da sessão inicial*/
 let time = 3000,
 indeximage = 0,
 image = document.querySelectorAll(".apresentação img");
@@ -18,3 +19,37 @@ if (indeximage>=maximum) {
 }
 image[indeximage].classList.add("select");
 }
+
+/*menu-mobile*/
+let mobile = document.querySelector(".menu-mobile i");
+mobile.addEventListener('click',(p)=>{
+	p.preventDefault();
+	let mobile = document.querySelector('.menu-mobile ul');
+	if (mobile.classList.contains('show-menu')) {
+		mobile.classList.remove('show-menu');
+	}
+	else{
+		mobile.classList.add('show-menu');
+	}	
+});
+
+let form = document.querySelector('.button');
+form.addEventListener('click',()=>{
+	alert('formulário ainda em desenvolvimento');
+});
+let link = document.querySelector(".link");
+link.addEventListener('click',()=>{
+	alert('página ainda em desenvolvimento');
+});
+let menu = document.querySelector('.menu-desktop');
+menu.addEventListener('click',()=>{
+	alert('ainda em desenvolvimento');
+});
+let menumobile = document.querySelector('.menu-mobile ul');
+menumobile.addEventListener('click',()=>{
+	alert('ainda em desenvolvimento');
+})
+let icone = document.querySelector('.icone');
+icone.addEventListener('click',()=>{
+	alert('página ainda em desenvolvimento');
+})

@@ -1,790 +1,213 @@
-@media (max-width: 1440px){
-	header h2{
-		width:45%;
-	}
+@media screen and (max-width: 1440px){
+	header h2{width: 50%;}
 }
-@media (max-width: 1280px){
-	header h2{
-		margin-left: 10px;
-	}
-}
-@media (max-width:984px){
-		header{
-			width: 100%;
-			display: flex;
-			flex-direction: column;
-			height: 40px;
-	  }
-		header img{
-			display: none;
-		}
-		header h2{
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			width: 93%;
-			text-align: center;
-			margin-top: 5px;
+@media screen and (max-width: 850px){
+	.menu-mobile{display: block;}
+	header{height: 60px;}
 
-		}
-		.produtos{
-			padding: 5px;	
-		}
-		.produtos figure{
-			display: flex;
-			flex-direction: column;
-			align-items: center;	
-		}
-		.produtos figure img{
-			width: 50%;
-			margin-top:30px;
-		}
-		.produtos i{
-			margin-top:20px;
-		}
-		.produtos h3 a{
-			display: none;
-		}
-		.produtos figcaption{
-			display: flex;
-			flex-direction: column;
-		}
-		.produtos figure img.font{
-			width: 40%;
-		}
-		.produtos figure .font{
-			width:40%;
-		}
-		.apresentação{
-			height: 480px;
-		}
-		.apresentação p{
-			display: flex;
-			flex-direction: row;
-			font-size: 1.8rem;
-			box-shadow:none;
-		}
-		.produtos h3{
-			text-align: center;
-		}
-		.cadastro h3{
-			font-size: 1.2rem;
-			text-align: center;
-		}
-		.cadastro button{
-			font-size: 1.3rem;
-		}
-		footer{
-			display: flex;
-			flex-direction: column;
-			font-size: 1.1rem;
-		}
-		footer i{
-			font-size: 1.2rem;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;	
-		}
-		header ul li a{
-			font-size: 20px;
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		} 	
-}
-@media (max-width: 800px){
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 730px;	
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-		.apresentação{
-			height: 320px;
-		}
-		.apresentação p{
-			margin-top: 40px;
-		}
-		.produtos figure img{
-			width: 40%;
-		}
-		.produtos figure img.font{
-			width: 30%;
-		}
-}
-@media (max-width: 792px){
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 700px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}	
-}
-@media (max-width: 768px){
-	header h2{
-		margin-right: 20px;
-	}
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 710px;
-		}
+	header h2,.menu-desktop ul{display: none;}
 
-}
-@media (max-width: 640px){
-	header h2{
+	.produtos figure{
 		display: flex;
+		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
-		width: 95%;
-	}
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 582px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 10px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-		.apresentação{
-			height: 230px;
-		}
-		.apresentação p{
-			margin-top: 40px;
-		}
-		.produtos figure img{
-			width: 30%;
-		}
-		.produtos figure img.font{
-			width: 25%;
-		}
-}
-@media (max-width: 600px){
-	header h2{
+		justify-content: center;}
+
+	.produtos h3 a{display: none;}
+
+	.produtos figure img{width: 30%;}
+
+	.produtos figure img.font{width: 22%;}
+
+	.produtos figure figcaption{
 		display: flex;
+		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
-		width: 95%;
-	}
-		label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 542px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-		.apresentação{
-			height: 280px;
-		}
-		.apresentação p{
-			margin-top: 40px;
-		}
-		.produtos figure img{
-			width: 40%;
-		}
-		.produtos figure img.font{
-			width: 30%;
-		}
-}
-@media (max-width: 540px){
-	header h2{
-		margin-left: 35px;
-	}
-		label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 480px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-}
-@media (max-width: 480px){
-	header h2{
-		margin-left:35px;
-	}
-		label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 420px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-}
-@media (max-width: 425px){
-	header h2{
-		margin-right: 10px;
-	}
-label[for="bt-menu"]{
-	display: block;
-	position: fixed;
-	left: 370px;}	
-}
-@media(max-width: 420px){
-	header h2{
-		margin-right: 15px;
-	}
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 350px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		} 
-}
-@media(max-width: 414px){
-	header h2{
-		margin-left: 30px;
-	}
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 365px;
-		}
-		.produtos figure img{
-			width: 45%;
-		}
-		.produtos figure img.font{
-			width:35%;
-		}
+		margin:8px 0;}
 
+	.produtos i{margin:20px 0;}
 
-}
-@media (max-width:412px){
-	header h2{
+	.sobre p{
 		display: flex;
-		margin-left: 30px;
-	}
-	.apresentação{
-		height: 250px;
-	}
-	.apresentação p{
-		font-size: 1.4rem;
-		margin-top: 30px;
-	}
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 365px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-		.produtos figure img{
-			width: 40%;
-		}
-		.produtos figure img.font{
-			width: 35%;
-		}
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;}
 
+	.sobre i#pc,.sobre i#fone{margin-bottom: 15px;}
 
-}	
-@media(max-width: 384px){
-	header h2{
-		margin-left: 25px;
-	}
-		label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 335px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-		.produtos figure img{
-			width: 40%;
-		}
-		.produtos figure img.font{
-			width: 35%;
-		}
-		.produtos figure figcaption{
-			font-size: 1.1rem;
-		}
+	.sobre i#fone{margin-top: 15px;}
 }
-@media(max-width: 375px){
-	header h2{
-		margin-left: 30px;
+
+@media screen and (max-width:800px){
+	header h2,.menu-desktop ul{
+		display: none;
 	}
-	label[for="bt-menu"]{
-			display:block;
-			position: fixed;
-			left: 330px;
-		}
-		.produtos figure img{
-			width: 45%;
-		}
-}
-@media (max-width: 360px){
-	header h2{
+	.menu-mobile{
+		display: block;
+	}
+	.produtos figure{
 		display: flex;
-		margin-left:30px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
-	label[for="bt-menu"]{
-			display:block;
-			position: fixed;
-			left: 315px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 20px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-		.apresentação{
-		height: 250px;
+	.produtos figcaption{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 8px 0;
 	}
-	.apresentação p{
-		font-size: 1.5rem;
-		margin-top: 40px;
-	}
-	.produtos figure img{
-		width: 50%;
+	.produtos img{
+		width: 30%;
+	
 	}
 	.produtos figure img.font{
+		width: 25%;
+	}
+	.produtos h3 a{
+		display: none;
+	}
+	.sobre p{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.sobre i#pc,.sobre i#fone{
+		margin-bottom: 15px;
+	}
+	.sobre i#fone{
+		margin-top: 15px;
+	}
+
+}
+
+@media screen and (max-width: 425px){
+	.produtos h3{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 415px){
+	.menu-mobile ul{
+		top: 50px;
+	}
+	.cadastro h3{
+		text-align:center;
+	}
+}
+@media screen and (max-width: 375px){
+	.menu-mobile ul{
+		top: 50px;
+	}
+	.cadastro h3{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 384px){
+	.produtos figure img{
+	width: 40%;		
+	}
+	.produtos figure img.font{
+		width: 35%;
+	}
+	.cadastro h3{
+		text-align: center;
+	}
+	.produtos figure figcaption{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 360px){
+	.produtos figure img{
 		width: 40%;
-	} 
+	}
+	.produtos figure img.font{
+		width: 35%;
+	}
+	.produtos figure figcaption{
+		font-size: 18px;
+	}
 }
-
-@media(max-width: 340px){
-	header h2{
-		font-size: 1.1rem;
-		text-align: center;
-	}
-	.apresentação p{
-		font-size: 1.5rem;
-	}
-	.produtos h3,.produtos figcaption{
-		font-size: 1.1rem;
-	}
-	.cadastro h3,.cadastro input,.cadastro button{
-		font-size: 1.1rem;
-	}
-
-}
-@media(max-width: 320px){
-	header h2{
-		margin-left:45px;	
-	}
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 270px;
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 20px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		} 
-}
-@media (max-width: 290px){
-	header h2{
-		font-size: 1.0rem;
-		text-align: center;
-		margin-left:45px;
-	}
-		label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 230px;	
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 40px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 25px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 20px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
-		.apresentação p{
-			font-size: 1.3rem;
-		}
-}
-@media (max-width: 240px){
+@media screen and (max-width:320px){
 	header{
-		height: 30px;
+		height: 45px;
 	}
-	header h2{
-		font-size: 14px;
-		text-align: center;
-		margin-left: 60px;
+	.menu-mobile ul{
+		top: 40px;
 	}
-	.apresentação{
-		height: 260px;
+	.produtos h3{
+		font-size: 18px;
 	}
-	.apresentação p{
-		font-size: 1.2rem;
-	}
-	.cadastro input,.cadastro button{
-		font-size:15px;
-	}
-	footer {
-		height: 80px;
-	}
-	footer p{
+	.produtos figure figcaption{
 		font-size: 15px;
 	}
-	label[for="bt-menu"]{
-			display: block;
-			position: fixed;
-			left: 200px;
-			font-size: 1.1rem;	
-		}
-		header ul{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: fixed;
-			width: 100%;
-			height: 100vh;
-			background:#454484;
-			top: 30px;
-			left: -100%;
-			text-align: center;
-			z-index:10;
-		}
-		header ul{
-			transition: all .4s;
-		}
-		 header ul li{
-			display: block;
-			margin: 8px 0;
-			line-height: 30px;
-			text-align: center;
-		}
-		header ul li a{
-			font-size: 15px;
- 
-		}
-		#bt-menu:checked ~ ul{
-			left: 0;
-		}
+	.sobre h2,.sobre p{
+		font-size: 20px;
+	}
+	.sobre i#pc,.sobre i#fone{
+		font-size: 30px;
+	}
+	.cadastro{
+		font-size: 20px;
+	}
 }
+@media screen and (max-width: 280px){
+	header{
+		height: 40px;
+	}
+	.menu-mobile ul{
+		top: 38px;
+	}
+	header i,.menu-mobile i{
+		font-size: 25px;
+	}
+	.cadastro h3{
+		font-size: 15px;
+	}
+	.cadastro button{
+		font-size: 18px;
+	}
+	.cadastro input{
+		width:90%;
+	}
+	.sobre h2{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 240px){
+	header{
+		height: 40px;
+	}
+	header i,.menu-mobile i{
+		font-size: 25px;
+	}
+	.menu-mobile ul{
+		top: 40px;
+	}
+	.produtos h3#produtos{
+		font-size: 15px;
+	}
+	.produtos figure figcaption,.produtos figure figcaption.font{
+		font-size: 15px;
+	}
+	.cadastro form input{
+		width: 80%;
+	}
+	.sobre h2{
+		font-size: 18px;
+	}
+	.sobre p{
+		font-size: 15px;
+	}
+	.sobre i#pc,.sobre i#fone{
+		font-size: 22px;
+	}
+	.cadastro h3{
+		font-size: 18px;
+	}
+	.cadastro button{
+		font-size: 18px;
+	}
+}
+
 

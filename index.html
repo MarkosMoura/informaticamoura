@@ -11,20 +11,27 @@
 </head>
 <body>
 <header>
-<input type="checkbox" id="bt-menu">
-<label for="bt-menu"><i class="fas fa-bars"></i></label>
-</label>
-<img src="tela.png" alt="tela">
+<i class="fas fa-power-off"></i>
 <h2>Informática Moura</h2>
-</div>
+<div class="menu-desktop">
 <ul>
-<li><a href="">Home</a></li>
-<li><a href="sobre.html">Sobre</a></li>
+<li class="active"><a href="#">Home</a></li>
+<li class="li"><a href="#">Acessorios</a></li>
+<li class="li"><a href="#">Telas</a></li>
+<li class="li"><a href="#">Gabinete</a></li>
+<li class="li"><a href="#">Contato</a></li>
+</ul>
+</div><!---desktop-->
+<div class="menu-mobile">
+<i class="fas fa-bars"></i>
+<ul>
+<li><a href="#">Home</a></li>
 <li><a href="#">Acessorios</a></li>
 <li><a href="#">Telas</a></li>
 <li><a href="#">Gabinete</a></li>
 <li><a href="#">Contato</a></li>
 </ul>
+</div><!---mobile-->
 </header>
 <section class="apresentação">
 <img class="select" src="service-428538_1920.jpg">
@@ -52,8 +59,14 @@ Placa Mãe<em id="valor">($1050)</em>
 <img src="placa mãee.png" alt="placa mãe" id="placa">
 <figcaption id="fig">Placa Mãe<em id="valor">($980)</em></figcaption>
 </figure>
-<i class="fas fa-chevron-double-down"></i>
-<h3><a href="Mais Produtos.html">Clique Aqui Para Ver Mais</a></h3>
+<a href="#" class="icone"><i class="fas fa-chevron-double-down"></i></a>
+<h3><a href="#" class="link">Clique Aqui Para Ver Mais</a></h3>
+</section>
+<section class="sobre">
+<h2>Sobre</h2>
+<p>Somos uma Loja Online de Informática que Visa Trazer os Melhores Produtos e Acessorios Para Você montar o seu<br><br><i class="fas fa-laptop" id="pc"></i>
+ e ter o Melhor <i class="fas fa-headphones" id="fone"></i> Para seus Ouvidos e muito Mais. somos uma Loja Pequena e com poucos Funcionarios mas fazemos muito pelos nossos Clientes</p>
+ <i class="fas fa-check" id="seta"></i>
 </section>
 <section class="cadastro">
 <h3>Cadastre-se para Adquirir nossos Produtos</h3>
@@ -61,7 +74,7 @@ Placa Mãe<em id="valor">($1050)</em>
 <input type="text" placeholder="Nome Completo" required>
 <input type="text" placeholder="Email" required>
 <input type="password" placeholder="Senha" required>
-<button type="button">Cadastrar</button>
+<button class="button" type="button">Cadastrar</button>
 </form>
 </section>
 <script src="javascript.js"></script>

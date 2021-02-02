@@ -2,10 +2,12 @@
 @font-face{font-family:"font";
 src:url('Anton-Regular.ttf');
 }
+@font-face{font-family:"font1";src:url('Stay and Shine.ttf');}
+
 header{
 	width: 100%;
 	display: flex;
-	height: 100px;
+	height: 90px;
 	flex-direction: row;
 	background:#454484;
 	justify-content: space-between;
@@ -16,43 +18,78 @@ header{
 	top:0;
 	z-index: 1;
 }
-header img{
-	width: 8%;
-}
 header h2{
-	width: 42%;
-	font-size: 1.2rem;
+	width: 44%;
+	font-size: 1.4rem;
 	color: #fff;
 	font-family: "font";
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 1px 2px 1px black;
 	font-weight: initial;
-	margin-right: 20px;
 }
-header ul{
+header i{
+	color: white;
+	font-size: 30px;
+	margin: 0 10px;
+}
+.menu-desktop ul{
 	display: flex;
 	list-style: none;
 	padding: 0 30px;
 
 }
-header li a{
+.menu-desktop li a{
+	display: flex;
 	color: #fff;
 	text-decoration: none;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	cursor: pointer;
 	font-family: "font";
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 1px 2px 1px black;
+	padding: 15px;
 }
-header li a:hover{
-	color:#ccc;
+.menu-desktop li.active{
+	background-color:#ccc4;
+	border-radius: 10px;
 }
-header li{
+.menu-desktop li.li a:hover{
+	background-color: black;
+	border-radius: 10px;
+}
+.menu-desktop li{
 	margin: 0 20px;
 }
-header li:first-child{
+.menu-desktop li:first-child{
 	margin-left: 0;
 }
-header li:last-child{
+.menu-desktop li:last-child{
 	margin-right:0;
+}
+.menu-mobile{display: none;text-align: right;width: 50%;}
+.menu-mobile i{
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+}
+.menu-mobile ul{
+	    background-color:#454484;
+		opacity: 0;
+		transition: 1s;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 60px;
+		text-align: center;
+}
+.show-menu{
+	opacity: 1 !important;
+}
+.menu-mobile ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 0;
+	display: block;
+	font-family: "font";
 }
 .apresentação{
 	background-color:#454484; 
@@ -69,13 +106,6 @@ header li:last-child{
 }
 .apresentação img.select{opacity: 1;}
 
-/*.apresentação p{
-	width: 40%;
-	background:#0000;
-	margin: 0 auto;
-	border-radius: 10px;
-	box-shadow: 2px 2px 2px #fff;
-}*/
 .produtos{
 	background:#000000;
 	color: #fff;
@@ -136,6 +166,11 @@ figure figcaption#fig{
 	justify-content: center;
 	text-align: center;
 	margin-bottom: 12px;
+	color: white;
+}
+.produtos a {
+	list-style: none;
+	text-decoration: none;
 }
 .produtos figure img:hover,.produtos h3 a:hover{
 	opacity: 1;
@@ -152,7 +187,7 @@ figure figcaption#fig{
 	font-size: 1.5rem;
 	font-family: "font";
 	text-shadow: 2px 2px 2px black;
-	padding: 10px;	
+	padding: 5px;	
 
 }
 .cadastro h3{
@@ -181,7 +216,7 @@ outline: 0;
 }
 .cadastro button{
 	margin: 10px auto;
-	padding: 4px;
+	padding: 8px;
 	cursor:pointer;
 	border-radius:8px;
 	background: transparent;
@@ -189,24 +224,34 @@ outline: 0;
 	font-family: "font";
 }
 .cadastro button:hover{
-	background:#fff;
-	color:#000000;
+	background:#000000;
+	color:#fff;
 	transition: 2s;
 }
-/*criando o menu*/
-label[for="bt-menu"]{
-	padding: 6px;
-	background: transparent;
-	color: #fff;
-	font-family: Arial;
+.sobre{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	background-color:#454485;
+	color: white;
+	font-family: "font";
+	text-shadow: 2px 2px 2px black;
 	text-align: center;
-	font-size: 28px;
-	cursor: pointer;
-	height: 30px;
-	display: none;
+	padding: 100px;
 }
-#bt-menu{
-	display: none;
+.sobre h2,.sobre p{
+	font-weight:inherit;
+	font-size: 1.5rem;
+}
+.sobre p{
+	font-family: "font1";
+}
+.sobre p i{
+	font-size: 2.4rem;
+}
+.sobre #seta{
+	font-size: 1.6rem;
+	margin-top: 30px;
 }
 
 
