@@ -64,6 +64,9 @@
 	.produtos figure img.font{
 		width: 25%;
 	}
+	.produtos figure img#placa{
+		width: 36%;
+	}
 	.produtos h3 a{
 		display: none;
 	}
@@ -94,6 +97,15 @@
 	.cadastro h3{
 		text-align:center;
 	}
+	.produtos figure img{
+		width: 45%;
+	}
+	.produtos figure img.font{
+		width: 38%;
+	}
+	.produtos figure img#placa{
+		width: 50%;
+	}
 }
 @media screen and (max-width: 375px){
 	.menu-mobile ul{
@@ -102,6 +114,7 @@
 	.cadastro h3{
 		text-align: center;
 	}
+
 }
 @media screen and (max-width: 384px){
 	.produtos figure img{
@@ -119,10 +132,13 @@
 }
 @media screen and (max-width: 360px){
 	.produtos figure img{
-		width: 40%;
+		width: 50%;
 	}
 	.produtos figure img.font{
-		width: 35%;
+		width: 42%;
+	}
+	.produtos figure img#placa{
+		width: 52%;
 	}
 	.produtos figure figcaption{
 		font-size: 18px;
