@@ -1,0 +1,35 @@
+
+@media screen and (max-width:1024px){
+	.campo input[type="text"],.campo input[type="email"],
+	.campo input[type="password"]{
+		width: 35%;
+	}
+	.campo textarea{
+		width: 35%;
+	}
+}
+@media screen and (max-width: 768px){
+	.campo input[type="text"],.campo input[type="email"],
+	.campo input[type="password"]
+	{/*35*/
+		width: 50%;
+	}
+	.campo textarea{
+		width: 55%;
+	}
+}
+@media screen and (max-width:430px){
+	.campo input[type="text"],.campo input[type="email"],
+	.campo input[type="password"]{
+		width: 70%;
+	}
+	.campo textarea{
+		width: 75%;
+	}
+}
+@media screen and (max-width: 374px){
+	.campo input[type="text"],.campo input[type="email"],
+	.campo input[type="password"]{
+		width: 80%;
+	}
+}

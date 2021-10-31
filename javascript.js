@@ -33,7 +33,7 @@ mobile.addEventListener('click',(p)=>{
 	}	
 });
 
-let form = document.querySelector('.button');
+/*let form = document.querySelector('.button');
 form.addEventListener('click',()=>{
 	alert('formulário ainda em desenvolvimento');
 });
@@ -52,4 +52,4 @@ menumobile.addEventListener('click',()=>{
 let icone = document.querySelector('.icone');
 icone.addEventListener('click',()=>{
 	alert('página ainda em desenvolvimento');
-})
+})*/

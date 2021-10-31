@@ -10,73 +10,146 @@
 	<link rel="stylesheet" href="medidas de dispositivo.css">
 </head>
 <body>
-<header>
-<i class="fas fa-power-off"></i>
-<h2>Informática Moura</h2>
-<div class="menu-desktop">
-<ul>
-<li class="active"><a href="#">Home</a></li>
-<li class="li"><a href="#">Acessorios</a></li>
-<li class="li"><a href="#">Telas</a></li>
-<li class="li"><a href="#">Gabinete</a></li>
-<li class="li"><a href="#">Contato</a></li>
-</ul>
-</div><!---desktop-->
-<div class="menu-mobile">
-<i class="fas fa-bars"></i>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Acessorios</a></li>
-<li><a href="#">Telas</a></li>
-<li><a href="#">Gabinete</a></li>
-<li><a href="#">Contato</a></li>
-</ul>
-</div><!---mobile-->
-</header>
-<section class="apresentação">
-<img class="select" src="service-428538_1920.jpg">
-<img src="service-428539_1920.jpg">
-<img src="service-428540_1920.jpg">
-<img src="hardware-3509891_1920.jpg">
-</div>
+	<header>
+		<a href="index.html"><i class="fas fa-power-off"></i></a>
+		<h2>Informática Moura</h2>
+		<div class="menu-desktop">
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li class="li"><a href="#sobre">Sobre</a></li>
+				<li class="li"><a href="#+">Mais Produtos</a></li>
+				<li class="li"><a href="#fale">Fale Conosco</a></li>
+				<li class="li"><a href="cadastro/login/login.php" id="login"><i class="far fa-user"></i></a></li>
+			</ul>
+		</div><!---desktop-->
+		<div class="menu-mobile">
+			<i class="fas fa-bars"></i>
+			<ul>
+				<li><a href="cadastro/login/login.php"><button type="submit">Entrar</button></a></li>
+				<li><a href="cadastro/cadastro.php"><button type="submit">Cadastrar</button></a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#+">Mais Produtos</a></li>
+				<li><a href="#fale">
+					Fale Conosco
+				</a></li>
+			</ul>
+		</div><!---mobile-->
+	</header>
+	<section class="apresentação">
+		<img class="select" src="service-428538_1920.jpg">
+		<img src="service-428539_1920.jpg">
+		<img src="service-428540_1920.jpg">
+		<img src="hardware-3509891_1920.jpg">
 </section>
 <section class="produtos">
-<h3 id="produtos">Produtos de Qualidade</h3>
-<h3 id="produtos">e com um Preço que é acessível ao seu Bolso</h3>
-<figure>
-<img src="placa de video.png" alt="placa de video">
-<figcaption>Placa de Video<br><em id="valor">($500)</em></figcaption>
-<img class="font" src="index_02.png" alt="font de alimentação">
-<figcaption class="font">Fonte de Alimentação<br><em id="valor">($800)</em></figcaption>
-<img src="disco rigido.png" alt="HD disco rigido">
-<figcaption>HD<br><em id="valor">($350)</em></figcaption>
-</figure>
-<figure>
-<img src="placa mãe.png" alt="placa mãe" id="placa">
-<figcaption id="fig">
-Placa Mãe<em id="valor">($1050)</em>
-</figcaption>
-<img src="placa mãee.png" alt="placa mãe" id="placa">
-<figcaption id="fig">Placa Mãe<em id="valor">($980)</em></figcaption>
-</figure>
-<a href="#" class="icone"><i class="fas fa-chevron-double-down"></i></a>
-<h3><a href="#" class="link">Clique Aqui Para Ver Mais</a></h3>
+<div class="gallery">
+  <a target="_blank" href="#">
+    <img src="placa de video.png" id="placamovie" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Placa de Video<br><em id="valor">($500)</em></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="#">
+    <img src="disco rigido.png" id="hd" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">HD<br><em id="valor">($500)</em></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="#">
+    <img src="index_02.png" id="font" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Fonte de Alimentação<br><em id="valor">($1200)</em></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="#">
+    <img src="placa mãe.png" id="placa" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Placa Mãe<br><em id="valor">($980)
+  </em>
+</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="#">
+    <img src="placa mãee.png" id="placatwo" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Placa Mãe<br><em id="valor">($850)
+  </em>
+</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="#">
+    <img src="fonte de alimentação.png" id="fontg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Fonte de Alimentação<br><em id="valor">($250)
+  </em>
+</div>
+</div>
 </section>
-<section class="sobre">
-<h2>Sobre</h2>
-<p>Somos uma Loja Online de Informática que Visa Trazer os Melhores Produtos e Acessorios Para Você montar o seu<br><br><i class="fas fa-laptop" id="pc"></i>
- e ter o Melhor <i class="fas fa-headphones" id="fone"></i> Para seus Ouvidos e muito Mais. somos uma Loja Pequena e com poucos Funcionarios mas fazemos muito pelos nossos Clientes</p>
- <i class="fas fa-check" id="seta"></i>
+<section class="sobre" id="sobre">
+	<h2>Sobre</h2>
+	<p>Somos uma Loja Online de Informática que Visa Trazer os Melhores Produtos e Acessorios Para Você montar o seu<br><i class="fas fa-laptop" id="pc"></i>
+		e ter o Melhor <i class="fas fa-headphones" id="fone"></i> Para seus Ouvidos e muito Mais. somos uma Loja Pequena e com poucos Funcionarios mas fazemos muito pelos nossos Clientes</p>
+		<i class="fas fa-check" id="seta"></i>
 </section>
-<section class="cadastro">
-<h3>Cadastre-se para Adquirir nossos Produtos</h3>
+<section class="fale" id="fale">
+<p>Entre em Contato conosco:</p>
+<i class="far fa-phone-alt" id="whats"><h2>32658578</h2></i>
+<i class="fab fa-whatsapp" id="phone"><h2>985614523</h2></i>
+<p>se tiver alguma Duvida</p>
+</section>
+<section class="maisp" id="+">
+<div class="gallery">
+ <a target="_blank" href="#">
+ <img src="mouse.png" id="mouseone" alt="Cinque Terre" width="600" height="400">
+ </a>
+  <div class="desc">Mouse<br><em id="valor">($380)
+  </em>
+</div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="#">
+ <img src="coller.png" id="coller" alt="Cinque Terre" width="600" height="400">
+ </a>
+  <div class="desc">Coller<br><em id="valor">($500)
+  </em>
+</div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="#">
+ <img src="mouse_2-removebg-preview-removebg-preview.png" id="mouse" alt="Cinque Terre" width="600" height="400">
+ </a>
+  <div class="desc">Mouse<br><em id="valor">($190)
+  </em>
+</div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="#">
+ <img src="fonte4.png" id="font" alt="Cinque Terre" width="600" height="400">
+ </a>
+  <div class="desc">Fonte de Alimentação<br><em id="valor">($850)
+  </em>
+</div>
+</div>
+<div class="gallery">
+ <a target="_blank" href="#">
+ <img src="memoria-ram-removebg-preview.png" id="memória" alt="Cinque Terre" width="600" height="400">
+ </a>
+  <div class="desc">Memória<br><em id="valor">($650)
+  </em>
+</div>
+</div>
+</section>
+<footer>
+<p>Seja um dos Nossos Clientes para Receber os Melhores Produtos do Mundo da Informática</p>
 <form>
-<input type="text" placeholder="Nome Completo" required>
-<input type="text" placeholder="Email" required>
-<input type="password" placeholder="Senha" required>
-<button class="button" type="button">Cadastrar</button>
-</form>
-</section>
+			<button class="button" type="button"><a href="cadastro/cadastro.php">Cadastre-se Aqui</a></button>
+		</form>
+<ul>
+<li><a href="#"><i class="fab fa-facebook" id="facebook"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram" id="instagram"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter" id="twitter"></i></a></li>
+</ul>
+</footer>
 <script src="javascript.js"></script>
 </body>
 </html>
