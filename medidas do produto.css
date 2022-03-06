@@ -1,0 +1,81 @@
+@media screen and (max-width: 850px){
+	.menu-desktop ul,header h2{
+		display: none;
+	}
+	.menu-mobile{
+		display: block;
+	}
+	header{
+		height: 60px;
+	}
+	.produtos figure{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.produtos figure img{
+		width: 30%;
+	}
+	.produtos figure img.font{
+		width: 25%;
+	}
+	.produtos figure img#coller{
+		width: 25%;
+	}
+	.produtos figure img#placamae2{
+		width: 25%;
+	}
+	.produtos figure img#fontetwo{
+		width: 32%;
+		margin-right: 20px;
+	}
+	.produtos figure img#fontreal{
+		width: 25%;
+	}
+	.produtos figure img#mouse{
+		width: 25%;
+	}
+	.produtos figure img#processador{
+		width: 22%;
+	}
+	.produtos figure img#memoria{
+		width: 28%;
+	}
+	.produtos figure figcaption{
+		display: flex;	
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 8px 0;
+	}
+}
+@media screen and (max-width:650px){
+	.produtos figure img{
+		width: 80%;
+	}
+	.produtos figure img.font{
+		width: 65%;
+	}
+	.produtos figure img#coller{
+		width: 60%;
+	}
+	.produtos figure img#placamae2{
+		width: 60%;
+	}
+	.produtos figure img#fontetwo{
+		width: 75%;
+	}
+	.produtos figure img#fontreal{
+		width: 65%;
+	}
+	.produtos figure img#mouse{
+		width: 65%;
+	}
+	.produtos figure img#processador{
+		width: 65%;
+	}
+	.produtos figure img#memoria{
+		width: 65%;
+	}
+}

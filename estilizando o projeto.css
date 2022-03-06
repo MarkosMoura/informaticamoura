@@ -66,7 +66,7 @@ header i{
 	border-radius: 10px;
 }
 .menu-desktop li{
-	margin: 0 14px;
+	margin: 0 8px;
 }
 .menu-desktop li:first-child{
 	margin-left: 0;
@@ -170,7 +170,7 @@ figure figcaption#fig{
 
 }
 div.gallery {
-  margin: 35px 90px;
+  margin: 35px 80px;
   background: rgb(10, 02, 20);
   box-shadow: 0.1px 0.1px 2px 8px #ccc;
   border-radius: 5px;
