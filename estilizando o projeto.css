@@ -4,10 +4,10 @@ html{
 	scroll-behavior: smooth;
 }
 @font-face{font-family:"font";
-src:url('../Fonts/Anton-Regular.ttf');
+src:url('Fonts/Anton-Regular.ttf');
 }
 
-@font-face{font-family:"font1";src:url('../Fonts/Stay and Shine.ttf');}
+@font-face{font-family:"font1";src:url('Fonts/Stay and Shine.ttf');}
 body{
 	background-color: rgb(2,0,36);
 
