@@ -54,7 +54,7 @@ header i{
 	cursor: pointer;
 	font-family: "font";
 	text-shadow: 1px 2px 5px #c1c1;
-	padding: 18px 8px;
+	padding: 15px 12px;
 }
 .menu-desktop li.active{
 	background-color:#0030ff;
@@ -170,7 +170,7 @@ figure figcaption#fig{
 
 }
 div.gallery {
-  margin: 35px 80px;
+  margin: 35px 90px;
   background: rgb(10, 02, 20);
   box-shadow: 0.1px 0.1px 2px 8px #ccc;
   border-radius: 5px;
@@ -252,99 +252,7 @@ div.desc {
 .produtos figure img.font{
 	width: 15%;
 }
-.fale{
-display: flex;
-flex-direction: column;
-align-items: center;
-color: #fff;
-font-size: 1.5rem;
-font-family: "font1";
-background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,8,136,1) 0%, rgba(1,190,237,1) 0%, rgba(3,149,204,1) 0%, rgba(124,0,255,1) 0%, rgba(79,7,146,1) 0%, rgba(128,79,79,1) 0%, rgba(6,87,154,1) 0%, rgba(1,139,217,1) 0%, rgba(0,25,179,1) 100%, rgba(255,0,82,1) 100%, rgba(0,48,255,1) 100%, rgba(53,3,255,1) 100%);
-height: 330px;
-}
-.fale p{
-	margin: 30.02px auto;
-}
-.fale i#whats {
-font-size: 1.7rem;
-text-align: center;
-margin: 20px;
-}
-.fale i#whats h2{
-	padding: 8px;
-	font-family: sans-serif;
-	font-size: 1.5rem;
-}
-.fale i#phone h2{
-	font-size: 1.5rem;
-	padding: 5px;
-	font-family: sans-serif;
 
-} 
-.fale i#phone {
-	font-size: 1.7rem;
-	text-align: center;
-}
-footer{
-	display: flex;
-	align-items: center;
-	flex-direction:column;
-	background: rgb(2,0,36);
-	font-size: 1.5rem;
-	font-family: "font";
-	text-shadow: 2px 2px 2px black;	
-}
-
-footer p{
-	padding: 18px;
-}
-footer ul{display: flex; margin-bottom: 10px; list-style: none; }
-footer ul li{margin-right: 15px;}
-footer ul li:last-child{margin-right: 0;}
-footer ul li a{color:#f1f1f1;font-size: 2rem;}
-footer p{color:#f1f1f1;}
-footer form{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-width: 100%;
-flex-direction: column;
-}
-
-footer form input[type=text]:focus,
-form input[type=password],
-.cadastro form button[type=button]:focus{
-outline: 0;
-}
-footer button {
-	margin: 10px auto;
-	padding: 10px 15px;
-	cursor:pointer;
-	border-radius:8px;
-	background: #001652;
-	color:#fff;
-	border: none;
-	box-shadow: 0.1px 0.1px 2px 2px #f1f1f1;
-	font-family: "font";
-	text-decoration: none;
-}
-footer button a {
-	text-decoration: none;
-	color:#fff;
-}
-footer button:hover{
-	background:#000000;
-	color:#fff;
-	transition: 1s;
-}
-footer ul li a i#facebook{
-	margin-top: 18px;
-
-}
-footer ul li a i#twitter{
-	margin-top: 18px;
-}
 .sobre{
 	display: flex;
 	flex-direction: column;
@@ -421,6 +329,68 @@ footer ul li a i#twitter{
 	opacity: .5;
 	margin: 0 auto;
 	padding: 12px;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+	background: rgb(2,0,36);
+	font-size: 1.5rem;
+	font-family: "font";
+	text-shadow: 2px 2px 2px black;	
+}
+
+footer p{
+	padding: 18px;
+}
+footer ul{display: flex; margin-bottom: 10px; list-style: none; }
+footer ul li{margin-right: 15px;}
+footer ul li:last-child{margin-right: 0;}
+footer ul li a{color:#f1f1f1;font-size: 2rem;}
+footer p{color:#f1f1f1;}
+footer form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+flex-direction: column;
+}
+
+footer form input[type=text]:focus,
+form input[type=password],
+.cadastro form button[type=button]:focus{
+outline: 0;
+}
+
+footer button {
+	margin: 10px auto;
+	padding: 10px 15px;
+	cursor:pointer;
+	border-radius:8px;
+	background: #001652;
+	color:#fff;
+	border: none;
+	box-shadow: 0.1px 0.1px 2px 2px #f1f1f1;
+	font-family: "font";
+	text-decoration: none;
+}
+footer button a {
+	text-decoration: none;
+	color:#fff;
+}
+footer button:hover{
+	background:#000000;
+	color:#fff;
+	transition: 1s;
+}
+footer ul li a i#facebook{
+	margin-top: 18px;
+
+}
+footer ul li a i#twitter{
+	margin-top: 18px;
 }
 
 
